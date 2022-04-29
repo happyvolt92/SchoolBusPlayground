@@ -50,3 +50,29 @@ canvas.moveBusForward()
 canvas.moveBusForward()
 canvas.moveBusForward()
 canvas.stopBus()
+
+
+
+class Bus {
+    var driverName: String;
+    var seat = 20;
+    var occupiedSeats = 0;
+    let numberOfWheel = 4;
+    
+    init(driverName: String){
+        self.driverName = driverName
+    }
+    
+}
+
+var unBus = Bus(driverName:"jean")
+unBus.driverName
+unBus.occupiedSeats += 1
+
+class Road {
+
+}
+
+class RoadSection {
+
+}
